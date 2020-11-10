@@ -94,7 +94,7 @@ h2,
 p {
   font-size: 14px;
   line-height: 22px;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
 }
 
 .lead {
@@ -525,10 +525,9 @@ p {
 .card {
   float: none;
   border-radius: 8px;
-  background-color: #0a192f;
+  background-color: #f1f3f4;
 }
-.event-card {
-}
+
 .tagging {
   display: inline-flex;
   border-radius: 15px;
@@ -552,8 +551,8 @@ p {
   color: #fd7d44;
 }
 
-.project-card .btn {
-}
+/* .project-card .btn {
+} */
 .feature-card {
   -webkit-box-shadow: 0 3px 6px rgba(0, 110, 255, 0.4);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -839,8 +838,8 @@ p {
   }
 }
 
-.hero-content {
-}
+/* .hero-content {
+} */
 .hero-title__group {
   margin-bottom: 30px;
 }
@@ -978,7 +977,7 @@ p {
 
 .screen-slider__item img {
   max-width: 100%;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -1348,8 +1347,16 @@ hr {
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
+
+/* team cards styling */
+.card-color {
+  background-color: #1669f2 !important;
+}
+
+/* end of team cards styling */
+
 /*different border colors for team avators*/
-#bcol {
+/* #bcol {
   border: 2px solid rgba(47, 91, 231, 0.5);
 }
 #ycol {
@@ -1357,7 +1364,7 @@ hr {
 }
 #rcol {
   border: 2px solid rgba(255, 0, 0, 0.5);
-}
+} */
 /*end of border colors*/
 
 .card.hovercard .info {
@@ -1370,10 +1377,10 @@ hr {
   margin-left: 60px;
   font-size: 18px;
   line-height: 1;
-  color: #d7d7d7;
+  color: #5f6368;
 }
 .card.hovercard .info .title p {
-  color: #d7d7d7;
+  color: #5f6368;
   margin-left: 100px;
 }
 
@@ -1422,7 +1429,7 @@ hr {
 }
 
 .footer-widget a {
-  color: #d7d7d7;
+  color: #5f6368;
 }
 
 .footer-widget ul {
@@ -1439,12 +1446,12 @@ hr {
 }
 
 .footer-widget ul li a {
-  color: #d7d7d7;
+  color: #9f9f9f;
 }
 
 .footer-widget ul li a:hover {
   text-decoration: none;
-  color: #ffffff;
+  color: #444444;
 }
 
 .footer-widget__title {
@@ -1477,6 +1484,17 @@ hr {
   font-size: 22px;
   margin-left: 8px;
 }
+
+/* individual hover coloring for social media icons */
+.twit-hover:hover {
+  color: #1DA1F2 !important;
+}
+
+.yt-hover:hover {
+  color: red !important;
+}
+
+/* end of individual hover coloring for social media icons */
 
 .bg-blue {
   background: #2f5be7;
