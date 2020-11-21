@@ -102,6 +102,11 @@ p {
   line-height: 29px;
   text-align: left;
 }
+
+.team-typo {
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   .lead {
     font-size: 16px;
@@ -523,7 +528,7 @@ p {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card {
-  float: none;
+  /* float: none; */
   border-radius: 8px;
   background-color: #f1f3f4;
 }
@@ -679,14 +684,14 @@ p {
 }
 
 .custom-menu .nav-item .nav-link {
-  padding: 20px 15px;
+  padding: 20px 10px 10px 10px;
   text-transform: capitalize;
   color: #5f6368;
 }
 
 .custom-menu .nav-item .nav-link:hover {
-  border-bottom: 3px solid #5f6368;
-  width: 50px;
+  border-bottom: 2px solid #5f6368;
+  /* width: 90px; */
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
@@ -1318,6 +1323,17 @@ hr {
 
 }*/
 
+/* image styling on the cards  */
+.img-sty {
+  border-radius: 50%;
+  width: 30%;
+  height: 30%;
+  transform: translateX(100%);
+  margin: 10px;
+}
+
+/* end of image styling on the cards */
+
 .card.hovercard {
   border: 0px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
@@ -1463,6 +1479,10 @@ hr {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex !important;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .social-list__inline li {
@@ -1487,7 +1507,7 @@ hr {
 
 /* individual hover coloring for social media icons */
 .twit-hover:hover {
-  color: #1DA1F2 !important;
+  color: #1da1f2 !important;
 }
 
 .yt-hover:hover {
